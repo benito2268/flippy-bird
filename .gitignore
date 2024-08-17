@@ -1,0 +1,4 @@
+dist/
+.vscode/
+.github/
+.clang-format
