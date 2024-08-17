@@ -23,7 +23,7 @@ static void input_callback(InputEvent* ie, void* ctx) {
     furi_message_queue_put(event_queue, ie, FuriWaitForever);
 }
 
-int32_t flippybird_app(void* p) {
+int32_t flippybird_main(void* p) {
     UNUSED(p);
     FURI_LOG_I("TEST", "Hello world");
     FURI_LOG_I("TEST", "I'm flippybird!");

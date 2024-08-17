@@ -4,7 +4,7 @@ App(
     appid="flippybird",  # Must be unique
     name="Flippybird",  # Displayed in menus
     apptype=FlipperAppType.EXTERNAL,
-    entry_point="flippybird_app",
+    entry_point="flippybird_main",
     stack_size=2 * 1024,
     fap_category="Examples",
     # Optional values
